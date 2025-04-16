@@ -36,10 +36,10 @@ PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 PACKAGES="$PACKAGES kmod-iwlwifi"
 PACKAGES="$PACKAGES iwlwifi-firmware-be200"
 PACKAGES="$PACKAGES pciutils"
-PACKAGES="$PACKAGES kmod-brcmfmac"
-PACKAGES="$PACKAGES kmod-brcmutil"
-PACKAGES="$PACKAGES kmod-mt76"
-PACKAGES="$PACKAGES kmod-mt7921e"
+#PACKAGES="$PACKAGES kmod-brcmfmac"
+#PACKAGES="$PACKAGES kmod-brcmutil"
+#PACKAGES="$PACKAGES kmod-mt76"
+#PACKAGES="$PACKAGES kmod-mt7921e"
 
 
 
