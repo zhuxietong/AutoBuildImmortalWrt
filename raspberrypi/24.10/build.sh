@@ -27,6 +27,17 @@ PACKAGES="$PACKAGES luci-app-openclash"
 PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
 
+
+
+#iwlwifi iwlwifi-firmware-be200 luci-theme-argon vsftpd luci-app-vsftpd
+PACKAGES="$PACKAGES iwlwifi"
+PACKAGES="$PACKAGES iwlwifi-firmware-be200"
+PACKAGES="$PACKAGES luci-theme-argon"
+PACKAGES="$PACKAGES vsftpd"
+PACKAGES="$PACKAGES luci-app-vsftpd"
+
+
+
 # 增加几个必备组件 方便用户安装iStore
 PACKAGES="$PACKAGES fdisk"
 PACKAGES="$PACKAGES script-utils"
