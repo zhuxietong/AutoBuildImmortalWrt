@@ -30,13 +30,7 @@ PACKAGES="$PACKAGES openssh-sftp-server"
 # 增加几个必备组件 方便用户安装iStore
 PACKAGES="$PACKAGES fdisk"
 PACKAGES="$PACKAGES script-utils"
-PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
-
-# iwlwifi iwlwifi-firmware-be200 luci-theme-argon vsftpd luci-app-vsftpd
-PACKAGES="$PACKAGES iwlwifi"
-PACKAGES="$PACKAGES iwlwifi-firmware-be200"
-PACKAGES="$PACKAGES luci-theme-argon"
-
+PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn iwlwifi iwlwifi-firmware-be200 luci-theme-argon"
 
 # 判断是否需要编译 Docker 插件
 if [ "$INCLUDE_DOCKER" = "yes" ]; then
